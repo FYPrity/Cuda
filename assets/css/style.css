@@ -128,7 +128,7 @@ img {
 	display: inline-block;
 }
 .box-btn:hover {
-	background-color: 
+	background-color: #c76a40;
 }
 /* Welcome area */
 .welcome-area {
@@ -280,6 +280,9 @@ input[type="submit"].box-btn {
 	background-color: #42b2d7;
 	border-bottom: 5px solid #299ec5;
 	display: block;
+}
+input[type="submit"].box-btn:hover {
+	background-color: #299ec5;
 }
 /* Footer area */
 .footer-area {
