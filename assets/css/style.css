@@ -126,9 +126,11 @@ img {
 	border-radius: 7px;
 	border-bottom: 5px solid #c76a40;
 	display: inline-block;
+	transition: .3s;
 }
 .box-btn:hover {
 	background-color: #c76a40;
+	font-size: 20px;
 }
 /* Welcome area */
 .welcome-area {
@@ -145,9 +147,10 @@ img {
 	font-size: 16px;
 	text-transform: uppercase;
 	display: block;
+	transition: .3s;
 }
 .menu ul li a:hover {
-	color: #641D68;
+	color: #E6BFE8;
 }
 .welcome-content h2 {
 	color: #fff;
@@ -219,6 +222,14 @@ img {
 }
 .single-portfolio h4 a {
 	color: #fff;
+}
+.portfolio-btn .box-btn {
+	background-color: #eca20c;
+	border-bottom: 5px solid #e29a08;
+	margin-top: 55px;
+}
+.portfolio-btn .box-btn:hover {
+	background-color: #e29a08;
 }
 /* Testimonial area */
 .testimonial-area {

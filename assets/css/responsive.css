@@ -96,8 +96,52 @@
 	.container {
 		width: 300px;
 	}
-	.mb-col-12 {
+	.sm-col-12 {
 		width: 100%;
+	}
+	.sm-pt-50 {
+		padding-top: 50px;
+	}
+	.sm-pb-50 {
+		padding-bottom: 50px;
+	}
+	.welcome-area {
+		padding-bottom: 60px;
+	}
+	.logo {
+		text-align: center;
+	}
+	.menu {
+		display: none;
+	}
+	.welcome-content h2 {
+		font-size: 21px;
+		padding-top: 50px;
+		padding-bottom: 55px;
+	}
+	.box-btn {
+		padding: 11px 30px;
+		font-size: 14px;
+		border-width: 3px;
+	}
+	.section-title h2 {
+		font-size: 30px;
+		margin-bottom: 20px;
+		padding-bottom: 9px;
+	}
+	.section-title p {
+		font-size: 11px;
+	}
+	.contact-area input[type="text"], .contact-area textarea {
+		font-size: 14px;
+	}
+	.footer {
+		padding: 30px 0;
+	}
+	.footer ul li a {
+		font-weight: 500;
+		font-size: 13px;
+		padding: 0 2px;
 	}
 }
 
